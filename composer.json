@@ -1,5 +1,5 @@
 {
-    "name": "backpack/revise-operation",
+    "name": "tannhatcms/revise-operation",
     "description": "Backpack interface for venturecraft/revisionable",
     "license": "MIT",
     "authors": [
@@ -16,8 +16,13 @@
         "Revisionable", "Revisions"
     ],
     "require": {
-        "backpack/crud": "^6.0",
+        "tannhatcms/crud": "^6.0",
         "venturecraft/revisionable": "1.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "replace": {
+        "backpack/revise-operation": "^2.0.1"
     },
     "autoload": {
         "psr-4": {
